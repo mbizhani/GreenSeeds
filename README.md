@@ -1,0 +1,2 @@
+# GreenSeeds
+Spring Boot Samples
