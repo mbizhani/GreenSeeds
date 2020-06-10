@@ -1,4 +1,4 @@
-package org.devocative.greenSeeds.boolField;
+package org.devocative.gs.boolField;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;

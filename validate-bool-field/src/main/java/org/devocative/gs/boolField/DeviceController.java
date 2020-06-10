@@ -1,4 +1,4 @@
-package org.devocative.greenSeeds.boolField;
+package org.devocative.gs.boolField;
 
 import lombok.Getter;
 import lombok.Setter;

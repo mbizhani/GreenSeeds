@@ -1,4 +1,4 @@
-package org.devocative.greenSeeds.boolField;
+package org.devocative.gs.boolField;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

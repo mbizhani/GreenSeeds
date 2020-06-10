@@ -1,4 +1,4 @@
-package org.devocative.greenSeeds.boolField;
+package org.devocative.gs.boolField;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
