@@ -1,0 +1,19 @@
+# KAFKA STREAM PRODUCER
+
+spring:
+  cloud:
+    stream:
+      default-binder: kafka
+      kafka:
+        binder:
+          brokers:
+            - localhost:9092
+          consumer-properties:
+            auto-offset-reset: earliest
+      #          header-mapper-bean-name: kafkaHeaderMapper123
+      bindings:
+        output:
+          binder: kafka
+          destination: test
+          group: output-group-1
+          content-type: application/json
