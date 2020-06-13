@@ -36,7 +36,7 @@ public class ProducerService {
 
 	@Scheduled(initialDelay = 8000, fixedRate = 6500)
 	public void produceObject() {
-		final Message msg = new Message(UUID.randomUUID().toString(), new Date(), (int) (Math.random() * 10) + 1);
+		final Message msg = new Message(UUID.randomUUID().toString(), new Date(), (int) (Math.random() * 3) + 1);
 
 		log.info("Stream.ProducerObject: {}", msg);
 

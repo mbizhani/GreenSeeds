@@ -17,3 +17,6 @@ spring:
           destination: test
           group: output-group-1
           content-type: application/json
+          producer:
+            partition-key-expression: payload.weight
+            partition-count: 5
