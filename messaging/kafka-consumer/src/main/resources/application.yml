@@ -1,7 +1,10 @@
 # Kafka Consumer
 
 spring:
-  kafka:
-    consumer:
-      auto-offset-reset: earliest
-      group-id: simple-messaging
+  application:
+    name: test-consumer
+## Due to programmatic config, no need to these!
+#  kafka:
+#    consumer:
+#      auto-offset-reset: earliest
+#      group-id: simple-messaging
