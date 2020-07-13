@@ -3,6 +3,9 @@
 spring:
   application:
     name: test-consumer
+  kafka:
+    consumer:
+      group-id:
 ## Due to programmatic config, no need to these!
 #  kafka:
 #    consumer:

@@ -9,7 +9,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Message {
+public class MessageReceive {
 	private String body;
 	private Date date;
 	private Integer weight;
